@@ -1,0 +1,158 @@
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.swp
+*~
+
+# ===== Secrets / environment =====
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.pfx
+*.p12
+id_rsa
+id_rsa.*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ===== Node / JS =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnp.*
+
+# ===== .NET / Visual Studio =====
+bin/
+obj/
+.vs/
+packages/
+*.user
+*.suo
+*.userprefs
+*.nupkg
+# Crystal Reports / ASP.NET vendored client scripts (third-party, not source)
+aspnet_client/
+crystalreportviewers13/
+
+# ===== Flutter / Android / Gradle =====
+build/
+.dart_tool/
+.gradle/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+local.properties
+
+# ===== Terraform =====
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# ===== Archives (redundant / exceed GitHub size limits) =====
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# ===== Java =====
+*.class
+
+# ===== Logs / temp =====
+*.log
+
+# ===== Datasets / data files (code-only policy) =====
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.arrow
+*.orc
+*.avro
+*.jsonl
+*.ndjson
+*.sqlite
+*.sqlite3
+*.db
+*.mat
+
+# ===== ML models / weights =====
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.npy
+*.model
+*.safetensors
+*.bin
+
+# ===== Compiled binaries / databases / archives =====
+*.dll
+*.exe
+*.pdb
+*.mdf
+*.ldf
+*.cab
+*.msi
+*.so
+*.dylib
+*.class
+
+# ===== Media (images / audio / video) =====
+*.ico
+*.cur
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.psd
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ===== Auto-excluded: python virtualenvs =====
+
+# ===== Auto-excluded: files > 10MB =====
+/20201028 1058_Computer Vision_Qualif Computer Vision.docx
